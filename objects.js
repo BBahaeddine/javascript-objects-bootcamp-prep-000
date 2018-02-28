@@ -8,4 +8,6 @@ function updatePlaylist(playlist, artistName, songTitle) {
   // playlist['songTitle'] = songTitle;
   playlist.artistName = artisatName;
   playlist.songTitle = songTitle;
+  
+  return playlist;
 }
